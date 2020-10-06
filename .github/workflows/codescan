@@ -8,7 +8,7 @@
     # CodeScan Project Key
     projectKey: Dheeraj0305-SumItUp
     # CodeScan Login Key
-    login: git_code_scan
+    login: ${{ secrets.git_code_scan }}
     # CodeScanCloud endpoint for your project
     codeScanUrl: https://app.codescan.io/dashboard?id=Dheeraj0305-SumItUp
     # This task will poll CodeScanCloud until the analysis is completed, or until the timeout is reached
