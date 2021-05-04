@@ -172,6 +172,5 @@ class Game{
         location.reload()
     }
 }
-
 game  = new Game(31, 5, 60)
 game.create_engine().start_game_loop()
